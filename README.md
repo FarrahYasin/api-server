@@ -3,10 +3,10 @@
 deployed link: <https://api-server-uhm6.onrender.com>
 
 Action: <https://github.com/FarrahYasin/api-server/actions>
-
+Partner1:
 Who was your partner? Mohamad Abdeen
 
-What was your key takeaway? II learned a lot of things like worjing in a team require a lot of patients and good communication skills but its more helpful
+What was your key takeaway? I learned a lot of things like worjing in a team require a lot of patients and good communication skills but its more helpful
 and more enteraing
 
 Farah PR: <https://github.com/Armada6199/api-server/pull/3>
@@ -14,6 +14,19 @@ Farah PR: <https://github.com/Armada6199/api-server/pull/3>
 Mohamad PR: <https://github.com/FarrahYasin/api-server/pull/2>
 
 
+
+I have 2 partner 
+
+Partner2:
+
+Who was your partner? Sham Jalam
+
+What was your key takeaway? I learned a lot of things like worjing in a team require a lot of patients and good communication skills but its more helpful
+and more enteraing
+
+Farah2 PR: <https://github.com/ShamAhmad2022/api-server/pull/5>
+
+Sham Pr: <https://github.com/FarrahYasin/api-server/pull/4>
 
 **(REST API)**
 
