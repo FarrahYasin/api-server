@@ -1,10 +1,19 @@
 # api-server
 
-deployed link: https://api-server-uhm6.onrender.com
+deployed link: <https://api-server-uhm6.onrender.com>
 
-Action: https://github.com/FarrahYasin/api-server/actions
+Action: <https://github.com/FarrahYasin/api-server/actions>
 
-PR: https://github.com/FarrahYasin/api-server/pulls
+Who was your partner? Mohamad Abdeen
+
+What was your key takeaway? II learned a lot of things like worjing in a team require a lot of patients and good communication skills but its more helpful
+and more enteraing
+
+Farah PR: <https://github.com/FarrahYasin/api-server/pulls>
+
+Mohamad PR: <https://github.com/FarrahYasin/api-server/pull/2>
+
+
 
 **(REST API)**
 
