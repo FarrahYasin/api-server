@@ -9,7 +9,7 @@ Who was your partner? Mohamad Abdeen
 What was your key takeaway? II learned a lot of things like worjing in a team require a lot of patients and good communication skills but its more helpful
 and more enteraing
 
-Farah PR: <https://github.com/FarrahYasin/api-server/pulls>
+Farah PR: <https://github.com/Armada6199/api-server/pull/3>
 
 Mohamad PR: <https://github.com/FarrahYasin/api-server/pull/2>
 
