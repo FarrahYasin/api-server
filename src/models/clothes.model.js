@@ -1,6 +1,6 @@
 'use strict'
 
-
+//create a schema and table for clothes
 const clothes = (sequelize, DataTypes) => sequelize.define('Clothes',{   //after table name we gonna have a constroctor, its a column that we gonna create it inside the database
     //column name :
       clothesType:{
