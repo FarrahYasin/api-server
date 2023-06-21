@@ -3,6 +3,7 @@
 deployed link: <https://api-server-uhm6.onrender.com>
 
 Action: <https://github.com/FarrahYasin/api-server/actions>
+_______________
 Partner1:
 Who was your partner? Mohamad Abdeen
 
@@ -14,7 +15,7 @@ Farah PR: <https://github.com/Armada6199/api-server/pull/3>
 Mohamad PR: <https://github.com/FarrahYasin/api-server/pull/2>
 
 
-
+__________________________
 I have 2 partner 
 
 Partner2:
