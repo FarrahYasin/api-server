@@ -6,11 +6,11 @@ const { Food } = require('../models/index');
 const router=express.Router();
 
 //endpoint for the food table
-router.get('/food', getFood);
-router.get('/food/:id', getOneFood);
-router.post('/food', createFood);
+router.get('/food', getFood);//get all
+router.get('/food/:id', getOneFood);//get one
+router.post('/food', createFood);//create
 router.put('/food/:id', updateFood);//update
-router.delete('/food/:id', deleteFood)
+router.delete('/food/:id', deleteFood)//delete
 
 //get all the records 
 async function getFood(req,res){

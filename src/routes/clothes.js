@@ -6,11 +6,11 @@ const { Clothes } = require('../models/index');
 const router=express.Router();
 
 //enpoint for the clothes table
-router.get('/Clothes', getClothes);
-router.get('/Clothes/:id', getOneClothes);
-router.post('/Clothes', createClothes);
+router.get('/Clothes', getClothes);//get all
+router.get('/Clothes/:id', getOneClothes);//get one
+router.post('/Clothes', createClothes);//create
 router.put('/Clothes/:id', updateClothes);//update
-router.delete('/Clothes/:id', deleteClothes)
+router.delete('/Clothes/:id', deleteClothes)//delete
 
 //get all the record
 async function getClothes(req,res){
