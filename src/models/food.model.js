@@ -1,8 +1,7 @@
 'use strict'
 
-
-const food = (sequelize, DataTypes) => sequelize.define('Food',{   //after table name we gonna have a constroctor, its a column that we gonna create it inside the database
-    //column name :
+//creating a table model for the foodType and giving it two coulmns foodtype and price
+const food = (sequelize, DataTypes) => sequelize.define('Food',{   
       foodType:{
           type: DataTypes.STRING,
            allowNull: false
@@ -12,10 +11,7 @@ const food = (sequelize, DataTypes) => sequelize.define('Food',{   //after table
         allowNull: false,
       },
     
-  } )
-  //so this previous step how we can build the schema(the table that we will use)
-  
-  
-  //now the last step in the model, we need to do exports for the people that we will use from the models index
+  } );
+  //now the last step in the model, we need to do exports for the food that we will use from the models index
   module.exports =food;
   
