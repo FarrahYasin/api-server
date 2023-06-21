@@ -16,6 +16,6 @@ const clothes = (sequelize, DataTypes) => sequelize.define('Clothes',{   //after
   //so this previous step how we can build the schema(the table that we will use)
   
   
-  //now the last step in the model, we need to do exports for the people that we will use from the models index
+  //now the last step in the model, we need to do exports for the clothes that we will use from the models index
   module.exports =clothes;
   
