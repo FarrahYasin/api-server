@@ -2,6 +2,10 @@
 
 deployed link: https://api-server-uhm6.onrender.com
 
+Action: https://github.com/FarrahYasin/api-server/actions
+
+PR: https://github.com/FarrahYasin/api-server/pulls
+
 **(REST API)**
 
 

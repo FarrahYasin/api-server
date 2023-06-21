@@ -9,22 +9,24 @@ const foodRouter = require('./routes/food');
 const clothes = require('./models/clothes.model');
 const clothesRouter = require('./routes/clothes');
 
+const book = require('./models/book.model');
+const bookRouter = require('./routes/book');
+
+const author = require('./models/author.model');
+const authorRouter = require('./routes/author');
+
 const pageNotFound = require('./errorHandlers/404')
 const serverError = require('./errorHandlers/500')
+
 
 const app = express();
 app.use(cors());
 app.use(express.json());
 
-// app.get('/', (req, res) => {
-// //   console.log(people)
-//   res.status(200).json({
-//     message: 'Welcome to home page!'
-//   })
-// })
-
 app.use(foodRouter);
 app.use(clothesRouter);
+app.use(bookRouter);
+app.use(authorRouter);
 
 
 function start(port) {

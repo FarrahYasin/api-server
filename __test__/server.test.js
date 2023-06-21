@@ -91,4 +91,61 @@ it('can add new Food', async () => {
     const res = await mockServer.delete('/clothes/2');
     expect(res.status).toBe(204);
   })
+
+
+ //test //book
+ it('can add new Book', async () => {
+  const res = await mockServer.post('/book').send({
+    name: 'life',
+    authorId:1
+  });
+  const createdBook = JSON.parse(res.text);
+  expect(res.status).toBe(201);
+  expect(createdBook.name).toEqual('life')
 });
+
+
+it('Can read all book', async () => {
+  const res = await mockServer.get('/book');
+  expect(res.status).toBe(200);
+})
+
+it('Update read all book by id', async () => {
+  const res = await mockServer.put('/book/2');
+  expect(res.status).toBe(202);
+})
+
+it('Delete read all book by id', async () => {
+  const res = await mockServer.delete('/book/2');
+  expect(res.status).toBe(204);
+})
+
+
+
+//test //author
+it('can add new author', async () => {
+  const res = await mockServer.post('/author').send({
+    name: 'farah'
+  });
+  const createdAuthor = JSON.parse(res.text);
+  expect(res.status).toBe(201);
+  expect(createdAuthor.name).toEqual('farah')
+});
+
+it('Can read all author', async () => {
+  const res = await mockServer.get('/author');
+  expect(res.status).toBe(200);
+})
+
+it('Update read all author by id', async () => {
+  const res = await mockServer.put('/author/2');
+  expect(res.status).toBe(202);
+})
+
+it('Delete read all author by id', async () => {
+  const res = await mockServer.delete('/author/2');
+  expect(res.status).toBe(204);
+})
+
+});
+
