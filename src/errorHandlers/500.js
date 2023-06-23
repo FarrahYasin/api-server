@@ -1,5 +1,6 @@
 
 'use strict';
+//server error handler as a middleware
 module.exports = (error,req,res, next)=>{
 res.status(500).json({
     code:500,

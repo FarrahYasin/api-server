@@ -28,7 +28,7 @@ app.use(clothesRouter);
 app.use(bookRouter);
 app.use(authorRouter);
 
-
+//connect to the database then run the server
 function start(port) {
   app.listen(port, () => console.log(`Up an running on port: ${port}`));
 }

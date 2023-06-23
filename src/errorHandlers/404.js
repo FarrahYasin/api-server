@@ -1,6 +1,6 @@
 
 'use strict';
-
+//page not found handler as middleware
 module.exports = (req,res)=>{
     res.status(404).json({
         code:404,

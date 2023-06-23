@@ -14,6 +14,7 @@ let sequelizeOptions = process.env.NODE_ENV === 'production' ? {//in the product
 } : {};
 //else if process.env.NODE_ENV === 'test', we will not have any options
 
+
 //now also then we need to spacifi the sequelize new instance that is taking the url and the option so we can use it in the connection of the database
 let sequelize = new Sequelize(DATABASE_URL, sequelizeOptions); //new instanse from Sequelize//Sequelize should be require from Sequelize above in first
 

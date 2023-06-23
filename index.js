@@ -12,6 +12,3 @@ const PORT=process.env.PORT || 5003;
 db.sync().then(() => {//db--> db that we exported from the index model (for the sequlize)
     start(PORT)
 }).catch(err=> console.log(err));
-
-
-
